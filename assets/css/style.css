@@ -8,6 +8,9 @@ body {
 }
 
 .header {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
     width: 100%;
     background-color: white;
     border-bottom: 3px solid #cccccc;
@@ -63,11 +66,10 @@ a:hover {
     color: white;
 }
 
+
 .main-text {
-    overflow: auto;
     width: 960px;
-    margin: 40px auto auto auto;
-    clear: both;
+    margin: 110px auto auto auto;
     background-color: white;
     border: 2px solid #dddddd;
 }
@@ -92,4 +94,35 @@ p {
     margin: 20px 30px 30px 30px;
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
+}
+
+#table-portfolio {
+    margin: 20px 30px 30px 30px;
+}
+
+table {
+    align-content: center;
+    margin: auto;
+    padding: 10px;
+}
+
+td {
+    padding: 5px 10px 5px 10px;
+}
+
+.pftext {
+    text-align: center; 
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pf {
+    padding-top: 20px;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    color: white;
+    background-color: #4aaaa5;
+    height: 40px;
+    text-align: center;
 }
