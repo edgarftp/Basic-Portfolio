@@ -1,5 +1,10 @@
+
+
 body {
     background-image: url(../../assets/images/dust_scratches.png);
+    position: relative;
+    margin: 0;
+    min-height: 100%;
     
 }
 
@@ -13,7 +18,9 @@ body {
     top: 0;
     width: 100%;
     background-color: white;
-    border-bottom: 3px solid #cccccc;
+    border-bottom: 1.5px solid #cccccc;
+    z-index: 2;
+
 }
 
 .menu {
@@ -69,7 +76,7 @@ a:hover {
 
 .main-text {
     width: 960px;
-    margin: 110px auto auto auto;
+    margin: 110px auto 20px auto;
     background-color: white;
     border: 2px solid #dddddd;
 }
@@ -97,17 +104,21 @@ p {
 }
 
 #table-portfolio {
-    margin: 20px 30px 30px 30px;
+    overflow: hidden;
+    margin: 0px 30px 0px 30px;
+    padding-bottom: 60px;
+    clear: both;
+    z-index: 1;
 }
 
 table {
     align-content: center;
     margin: auto;
-    padding: 10px;
+    padding: 10px 10px 10px 10px;
 }
 
 td {
-    padding: 5px 10px 5px 10px;
+    padding: 10px 10px 0px 10px;
 }
 
 .pftext {
@@ -126,3 +137,66 @@ td {
     height: 40px;
     text-align: center;
 }
+
+#formtable {
+    margin: 10px 30px 30px 30px;
+    padding-bottom: 30px;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    box-sizing: border-box;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #777777;
+    border: 1.5px solid #dddddd;
+}
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    box-sizing: border-box;
+    height: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #777777;
+    border: 1.5px solid #dddddd;
+}
+
+#submit {
+    background-color: #4aaaa5;
+    color: white;
+    height: 30;
+    width: 100;
+    padding: 10px 30px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    position: fixed;      
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 25px;
+    padding-top: 30px;
+    background-color: #666666;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-top: 6px solid #4aaaa5;
+    
+}
+
+   
+
